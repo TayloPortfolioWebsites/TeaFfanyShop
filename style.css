@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url(images/tea-bg.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-style {
+  background-color: rgba(228, 202, 168, 0.404);
+  width: 80%;
+  max-width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 20%;
+}
+
+.h1-header, h2,
+.p-header{
+  text-align: center;
+}
+
+.p-header{
+    font-style: italic;
+}
+
+.hr-header, .hr-footer {
+  height: 2px;
+  background-color: rgba(228, 202, 168, 0.404);
+  border-color: rgb(66, 63, 60);
+  box-shadow: -0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -0px 9px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tea-menu-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.tea-items p{
+    display: inline-block;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.tea-flavor, .creampuff-flavor{
+    font-size: 18px;
+    width: 75%;
+    text-align: left;
+}
+
+.tea-price, .creampuff-price{
+    font-size: 18px;
+    width: 20%;
+    text-align: right;
+}
+
+.section-2{
+    margin-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-link{
+    color: white;
+}
+
+.footer-link:hover{
+    color: rgba(255, 255, 255, 0.756);
+}
